@@ -6,6 +6,6 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
-rootProject.name = "tradesdk_android"
-include(":tradesdk_android")
+rootProject.name = "tradeappsdk"
+include(":tradeappsdk")
 

@@ -16,7 +16,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="hun ja yr">
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="hun ja yr sad">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" afterDir="false" />
     </list>
@@ -178,13 +181,22 @@
       <option name="project" value="LOCAL" />
       <updated>1746781988188</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hun ja yr sad">
+      <option name="closed" value="true" />
+      <created>1746782240836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746782240836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chal ja be" />
     <MESSAGE value="ho be" />
     <MESSAGE value="hun ja yr" />
-    <option name="LAST_COMMIT_MESSAGE" value="hun ja yr" />
+    <MESSAGE value="hun ja yr sad" />
+    <option name="LAST_COMMIT_MESSAGE" value="hun ja yr sad" />
   </component>
 </project>

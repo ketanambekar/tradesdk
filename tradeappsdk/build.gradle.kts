@@ -1,7 +1,6 @@
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
-    kotlin("android")
+    id("org.jetbrains.kotlin.android") // Keep this line (don't duplicate it)
     id("maven-publish")
 }
 
