@@ -21,16 +21,30 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = false
+        }
+    }
 }
 
 afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
+                // Ensure the correct AAR component is selected
                 from(components["release"])
-                groupId = "com.github.ketanambekar"
-                artifactId = "tradesdk"
-                version = "1.0.3"
+
+                groupId = "com.github.ketanambekar" // Or your desired groupId
+                artifactId = "tradesdk" // Your library name
+                version = "1.0.3" // Your library version
+            }
+        }
+
+        repositories {
+            maven {
+                url = uri("https://jitpack.io") // Target JitPack repository URL
             }
         }
     }
