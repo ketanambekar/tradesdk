@@ -1,46 +1,39 @@
+// TradeSdk.kt
 package com.finoux.tradesdk
 
 import androidx.compose.runtime.*
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
+import androidx.navigation.compose.*
+import androidx.compose.runtime.mutableStateOf
 
 object TradeSdk {
 
-    // Shared state to trigger navigation
-    private var pendingIsin: String? by mutableStateOf(null)
+    private var _navController: NavHostController? = null
+    private val navController get() = _navController!!
 
-    /**
-     * Called from the main app to request opening stock details.
-     */
+    private val _shouldShowHost = mutableStateOf(false)
+    private val _startIsin = mutableStateOf<String?>(null)
+
+    // Call this to trigger SDK flow from outside
     fun openStockDetails(isin: String) {
-        pendingIsin = isin
+        _startIsin.value = isin
+        _shouldShowHost.value = true
     }
 
-    /**
-     * The Composable host that handles the navigation for SDK.
-     * Must be called from the main app inside a Composable.
-     */
+    // Host composable to be placed once in parent app
     @Composable
-    fun SDKNavHost() {
-        val navController = rememberNavController()
+    fun Host() {
+        if (_shouldShowHost.value) {
+            val navController = rememberNavController()
+            _navController = navController
 
-        // Handle navigation to stock details when openStockDetails is called
-        LaunchedEffect(pendingIsin) {
-            pendingIsin?.let {
-                navController.navigate("stock_details/$it")
-                pendingIsin = null // Reset after navigation
-            }
-        }
-
-        NavHost(navController = navController, startDestination = "stock_list") {
-            composable("stock_list") {
-                StockListScreen()
-            }
-            composable("stock_details/{isin}") { backStackEntry ->
-                val isin = backStackEntry.arguments?.getString("isin") ?: ""
-                StockDetailScreen(isin)
+            NavHost(navController, startDestination = "stock_details") {
+                composable("stock_details") {
+                    val isin = _startIsin.value
+                    if (isin != null) {
+                        StockDetailScreen(isin)
+                    }
+                }
             }
         }
     }
