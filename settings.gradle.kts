@@ -16,9 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
 rootProject.name = "tradesdk"
 include(":app")
- 
+implementation("com.github.ketanambekar:tradesdk:-SNAPSHOT")
