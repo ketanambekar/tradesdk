@@ -8,7 +8,4 @@ fun StockListScreen() {
     Text("This is the Stock List Screen (from SDK)")
 }
 
-@Composable
-fun StockDetailScreen(isin: String) {
-    Text("Stock Detail Screen for ISIN: $isin")
-}
+
