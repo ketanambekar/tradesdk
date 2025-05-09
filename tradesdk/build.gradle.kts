@@ -29,23 +29,28 @@ android {
     }
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                // Ensure the correct AAR component is selected
-                from(components["release"])
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            from(components["release"])
 
-                groupId = "com.github.ketanambekar" // Or your desired groupId
-                artifactId = "tradesdk" // Your library name
-                version = "1.0.3" // Your library version
-            }
-        }
-
-        repositories {
-            maven {
-                url = uri("https://jitpack.io") // Target JitPack repository URL
-            }
+            groupId = "com.finoux"  // Your SDK's group ID
+            artifactId = "tradesdk" // Your SDK's artifact ID
+            version = "1.0.3"       // Version of your SDK
         }
     }
+
+    repositories {
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
+}
+
+dependencies {
+    implementation("androidx.core:core-ktx:1.13.0")
+    implementation("androidx.activity:activity-compose:1.9.0")
+    implementation("androidx.compose.ui:ui:1.7.0")
+    implementation("androidx.compose.material3:material3:1.5.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.7.0")
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.finoux.tradesdk">
+
+    <application
+        android:name=".TradeSdkApplication"
+        android:label="TradeSDK"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- Declare TradeSdkActivity -->
+        <activity
+            android:name=".TradeSdkActivity"
+            android:label="Trade SDK"
+            android:theme="@style/Theme.TradeSDK">
+        </activity>
+
+    </application>
+
+</manifest>
