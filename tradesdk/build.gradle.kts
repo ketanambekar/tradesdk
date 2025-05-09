@@ -33,6 +33,10 @@ android {
     lint {
         targetSdk = 34
     }
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = false
+        }}
 }
 
 dependencies {
@@ -46,7 +50,7 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             // Use the correct component name for the AAR, usually 'release' or 'releaseAar'
-            from(components["release"])  // Correct component name
+//            from(components["release"])  // Correct component name
             groupId = "com.finoux"
             artifactId = "tradesdk"
             version = "1.0.1"

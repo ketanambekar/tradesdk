@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "tradesdk"
-include(":app")
+include(":tradesdk")
