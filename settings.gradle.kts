@@ -22,4 +22,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "tradesdk"
 include(":app")
-implementation("com.github.ketanambekar:tradesdk:-SNAPSHOT")
