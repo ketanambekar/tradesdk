@@ -1,20 +1,47 @@
 package com.finoux.tradesdk
 
+import androidx.compose.runtime.*
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+
 object TradeSdk {
 
-    private var stockDetailHandler: ((String) -> Unit)? = null
+    // Shared state to trigger navigation
+    private var pendingIsin: String? by mutableStateOf(null)
 
     /**
-     * Initializes the SDK. Call this in Application class or MainActivity.
+     * Called from the main app to request opening stock details.
      */
-    fun init(stockClickHandler: (isin: String) -> Unit) {
-        stockDetailHandler = stockClickHandler
+    fun openStockDetails(isin: String) {
+        pendingIsin = isin
     }
 
     /**
-     * Opens stock details. This is triggered from the main app.
+     * The Composable host that handles the navigation for SDK.
+     * Must be called from the main app inside a Composable.
      */
-    fun openStockDetails(isin: String) {
-        stockDetailHandler?.invoke(isin)
+    @Composable
+    fun SDKNavHost() {
+        val navController = rememberNavController()
+
+        // Handle navigation to stock details when openStockDetails is called
+        LaunchedEffect(pendingIsin) {
+            pendingIsin?.let {
+                navController.navigate("stock_details/$it")
+                pendingIsin = null // Reset after navigation
+            }
+        }
+
+        NavHost(navController = navController, startDestination = "stock_list") {
+            composable("stock_list") {
+                StockListScreen()
+            }
+            composable("stock_details/{isin}") { backStackEntry ->
+                val isin = backStackEntry.arguments?.getString("isin") ?: ""
+                StockDetailScreen(isin)
+            }
+        }
     }
 }

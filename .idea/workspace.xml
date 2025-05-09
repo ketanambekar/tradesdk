@@ -16,12 +16,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="hun ja yr sad">
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="And Now it will work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746782240836</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="And Now it will work">
+      <option name="closed" value="true" />
+      <created>1746782947411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746782947411</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,6 +204,7 @@
     <MESSAGE value="ho be" />
     <MESSAGE value="hun ja yr" />
     <MESSAGE value="hun ja yr sad" />
-    <option name="LAST_COMMIT_MESSAGE" value="hun ja yr sad" />
+    <MESSAGE value="And Now it will work" />
+    <option name="LAST_COMMIT_MESSAGE" value="And Now it will work" />
   </component>
 </project>
