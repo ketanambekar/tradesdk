@@ -16,8 +16,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="ho be">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="hun ja yr">
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,12 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746781742452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hun ja yr">
+      <option name="closed" value="true" />
+      <created>1746781988188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746781988188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chal ja be" />
     <MESSAGE value="ho be" />
-    <option name="LAST_COMMIT_MESSAGE" value="ho be" />
+    <MESSAGE value="hun ja yr" />
+    <option name="LAST_COMMIT_MESSAGE" value="hun ja yr" />
   </component>
 </project>

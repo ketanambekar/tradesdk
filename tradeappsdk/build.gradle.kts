@@ -51,7 +51,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.ketanambekar"
                 artifactId = "tradesdk"
-                version = "1.0.9"
+                version = "1.0.1"
             }
         }
     }
