@@ -1,13 +1,10 @@
-package com.finoux.tradesdk
+package com.yourcompany.tradesdk
+
 import android.content.Context
-import android.content.Intent
+import android.widget.Toast
 
 object TradeSdk {
-
-    // Method to open the stock details activity
-    fun openStockDetails(context: Context, isin: String) {
-        val intent = Intent(context, TradeSdkActivity::class.java)
-        intent.putExtra("isin", isin)
-        context.startActivity(intent)
+    fun showTradeDialog(context: Context, message: String) {
+        Toast.makeText(context, "TradeSDK: $message", Toast.LENGTH_LONG).show()
     }
 }
