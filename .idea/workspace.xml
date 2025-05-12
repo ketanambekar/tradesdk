@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.20: Fixed Nav issues more fixes" />
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.21: More fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/tradeappsdk/tradeappsdk.tradeappsdk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/data/StockInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/data/StockInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/OrderScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/OrderScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/res/raw/stocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/res/raw/stocks.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +92,7 @@
   }
 }]]></component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="_Designer_Tab" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -305,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747037484719</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.0.21: More fixes">
+      <option name="closed" value="true" />
+      <created>1747040631861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747040631861</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +337,7 @@
     <MESSAGE value="1.0.18: Created the flow" />
     <MESSAGE value="1.0.19: Fixed Nav issues" />
     <MESSAGE value="1.0.20: Fixed Nav issues more fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.20: Fixed Nav issues more fixes" />
+    <MESSAGE value="1.0.21: More fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.21: More fixes" />
   </component>
 </project>
