@@ -4,31 +4,14 @@
     <shared>
       <config />
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/tradesdk/src/main/res/layout/activity_tradesdk.xml">
-        <config>
-          <theme>@android:style/Theme.Material.Light</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.14: Added host() method">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.15: Added back functionality to sdk">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +74,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ketanambekar1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ketanambekar/tradesdk.git",
+    "accountId": "0496704d-e3ac-4179-bf06-76e9a995ac46"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -113,7 +108,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ketan.amberkar/Desktop/projects/sdk/tradesdk",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.do.not.copy.http.proxy.settings.to.gradle": "true",
+    "show.do.not.copy.http.proxy.settings.to.gradle": "false",
     "show.migrate.to.gradle.popup": "false"
   },
   "keyToStringList": {
@@ -263,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746785890416</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.0.15: Added back functionality to sdk">
+      <option name="closed" value="true" />
+      <created>1747028913474</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747028913474</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +277,7 @@
     <MESSAGE value="And Now it will work" />
     <MESSAGE value="Lets go" />
     <MESSAGE value="1.0.14: Added host() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.14: Added host() method" />
+    <MESSAGE value="1.0.15: Added back functionality to sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.15: Added back functionality to sdk" />
   </component>
 </project>
