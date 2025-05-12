@@ -9,14 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.21: More fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tradeappsdk/tradeappsdk.tradeappsdk.iml" beforeDir="false" />
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.22: UI Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/tradeappsdk/tradeappsdk.tradeappsdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tradeappsdk/tradeappsdk.tradeappsdk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/data/StockInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/data/StockInfo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/OrderScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/OrderScreen.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/res/raw/stocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/res/raw/stocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/charts/ChartCard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/charts/ChartCard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/widgets/QuantityPriceWidget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/widgets/QuantityPriceWidget.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747040631861</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1.0.22: UI Changes">
+      <option name="closed" value="true" />
+      <created>1747050068315</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747050068315</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -338,6 +345,7 @@
     <MESSAGE value="1.0.19: Fixed Nav issues" />
     <MESSAGE value="1.0.20: Fixed Nav issues more fixes" />
     <MESSAGE value="1.0.21: More fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.21: More fixes" />
+    <MESSAGE value="1.0.22: UI Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.22: UI Changes" />
   </component>
 </project>

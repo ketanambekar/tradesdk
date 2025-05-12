@@ -95,11 +95,11 @@ fun AreaChart(
         drawPath(path, color = lineColor, style = Stroke(width = 4f))
 
         // Optional: draw data points
-        data.forEach {
-            val x = (it.x - minX) / (maxX - minX) * (size.width - 100f) + 50f
-            val y = size.height - 50f - (it.y - minY) / (maxY - minY) * (size.height - 100f)
-            drawCircle(color = Color.Red, radius = 5f, center = Offset(x, y))
-        }
+//        data.forEach {
+//            val x = (it.x - minX) / (maxX - minX) * (size.width - 100f) + 50f
+//            val y = size.height - 50f - (it.y - minY) / (maxY - minY) * (size.height - 100f)
+//            drawCircle(color = Color.Red, radius = 5f, center = Offset(x, y))
+//        }
     }
 }
 

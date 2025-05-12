@@ -40,14 +40,15 @@ fun QuantityPriceSection(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Button(
                         onClick = { if (quantity > 1) onQuantityChange(quantity - 1) },
-                        modifier = Modifier.size(36.dp)
+//                        modifier = Modifier.size(40.dp),
+                        shape = RoundedCornerShape(50),
                     ) {
-                        Text("-")
+                        Text("-",color = Color.White, fontSize = 16.sp,)
                     }
                     Spacer(modifier = Modifier.width(8.dp))
                     Text(
                         "$quantity",
-                        modifier = Modifier.width(40.dp),
+                        modifier = Modifier.width(80.dp),
                         color = Color.White,
                         fontSize = 16.sp,
                         textAlign = TextAlign.Center
@@ -55,9 +56,9 @@ fun QuantityPriceSection(
                     Spacer(modifier = Modifier.width(8.dp))
                     Button(
                         onClick = { onQuantityChange(quantity + 1) },
-                        modifier = Modifier.size(36.dp)
+//                        modifier = Modifier.size(36.dp)
                     ) {
-                        Text("+")
+                        Text("+",color = Color.White, fontSize = 16.sp,)
                     }
                 }
             }
@@ -75,7 +76,7 @@ fun QuantityPriceSection(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Button(
                         onClick = { if (price > 1.0) onPriceChange(price - 1.0) },
-                        modifier = Modifier.size(36.dp)
+//                        modifier = Modifier.size(36.dp)
                     ) {
                         Text("-",color = Color.White, fontSize = 16.sp,)
                     }
@@ -90,7 +91,7 @@ fun QuantityPriceSection(
                     Spacer(modifier = Modifier.width(8.dp))
                     Button(
                         onClick = { onPriceChange(price + 1.0) },
-                        modifier = Modifier.size(36.dp)
+//                        modifier = Modifier.size(36.dp)
                     ) {
                         Text("+",color = Color.White, fontSize = 16.sp,)
                     }

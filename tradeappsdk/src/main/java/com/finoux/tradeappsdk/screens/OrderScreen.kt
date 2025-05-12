@@ -88,7 +88,7 @@ fun OrderScreen(navController: NavController? = null) {
                         .height(56.dp),
                     contentAlignment = Alignment.Center
                 ) {
-                    Text("\u2714 Confirmed", color = Color.Green, fontWeight = FontWeight.Bold)
+                    Text("\u2714 Confirmed", fontWeight = FontWeight.Bold)
                 }
             }
         }
@@ -112,25 +112,7 @@ fun OrderScreen(navController: NavController? = null) {
                 onPriceChange = { price = it }
             )
 
-//            Row(verticalAlignment = Alignment.CenterVertically) {
-//                Text("Quantity:",color= Color.White, modifier = Modifier.weight(1f))
-//                Button(onClick = { if (quantity > 1) quantity-- }) { Text("-") }
-//                Spacer(modifier = Modifier.width(8.dp))
-//                Text("$quantity", modifier = Modifier.width(40.dp), color= Color.White, fontSize = 16.sp, textAlign = TextAlign.Center)
-//                Spacer(modifier = Modifier.width(8.dp))
-//                Button(onClick = { quantity++ }) { Text("+") }
-//            }
-//
-//            Row(verticalAlignment = Alignment.CenterVertically) {
-//                Text("Price:", color = Color.White, modifier = Modifier.weight(1f))
-//                Button(onClick = { if (price > 1) price -= 1.0 }) { Text("-") }
-//                Spacer(modifier = Modifier.width(8.dp))
-//                Text("\u20B9${String.format("%.2f", price)}", color =  Color.White, modifier = Modifier.width(80.dp), fontSize = 16.sp, textAlign = TextAlign.Center)
-//                Spacer(modifier = Modifier.width(8.dp))
-//                Button(onClick = { price += 1.0 }) { Text("+") }
-//            }
-
-            Text("Total: \u20B9${String.format("%.2f", quantity * price)}", fontSize = 18.sp, fontWeight = FontWeight.SemiBold, color =  Color.White,)
+            Text("Total: \u20B9${String.format("%.2f", quantity * price)}", fontSize = 18.sp, fontWeight = FontWeight.SemiBold, color =  Color.White, modifier = Modifier.padding(start = 20.dp))
         }
     }
 }

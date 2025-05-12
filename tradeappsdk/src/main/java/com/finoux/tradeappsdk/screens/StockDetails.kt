@@ -7,7 +7,9 @@ import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
@@ -40,7 +42,7 @@ fun StockDetailScreen(
     val context = LocalContext.current
     val stockList by remember { mutableStateOf(loadStockData(context)) }
     val stock = stockList.find { it.isin == isin }
-
+    val scrollState = rememberScrollState()
     if (stock == null) {
         Text("Stock not found for ISIN: $isin")
         return
@@ -92,7 +94,8 @@ fun StockDetailScreen(
         Column(
             modifier = Modifier
                 .padding(innerPadding)         // respect topBar/bottomBar
-                .padding(top = 16.dp)          // additional top padding
+                .padding(top = 16.dp)
+                .verticalScroll(scrollState) // additional top padding
         ) {
             StockCard(stock, onClick = {})
             StockChartCard()
