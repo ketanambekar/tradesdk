@@ -1,6 +1,8 @@
 package com.finoux.tradesdk
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -12,7 +14,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun StockDetailScreen(isin: String) {
+fun StockDetailScreen(isin: String, onBack: () -> Unit) {
     // Mock data for example
     val stockName = remember { "HDFC Bank Ltd." }
     val exchange = remember { "NSE" }
@@ -21,8 +23,11 @@ fun StockDetailScreen(isin: String) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = {
-                    Text("Stock Details")
+                title = { Text("Stock Details") },
+                navigationIcon = {
+                    IconButton(onClick = onBack) {
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                    }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary,
