@@ -1,7 +1,9 @@
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
@@ -47,6 +49,7 @@ fun OrderScreen(navController: NavController? = null) {
         Order(100.5f, 90f),
         Order(101.0f, 50f)
     )
+    val scrollState = rememberScrollState()
 
     Scaffold(
         containerColor = Color(0xFF0D161F),
@@ -96,7 +99,8 @@ fun OrderScreen(navController: NavController? = null) {
         Column(
             modifier = Modifier
                 .padding(innerPadding)         // respect topBar/bottomBar
-                .padding(top = 16.dp),
+                .padding(top = 16.dp)
+                .verticalScroll(scrollState),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             if (stock != null) {
