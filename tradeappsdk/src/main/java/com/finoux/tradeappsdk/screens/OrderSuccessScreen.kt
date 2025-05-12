@@ -13,6 +13,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.finoux.tradesdk.TradeSdk
 
 @Composable
 fun OrderSuccessScreen() {
@@ -57,7 +58,8 @@ fun OrderSuccessScreen() {
 
                 Button(
                     onClick = {
-                        activity?.finish() // Exit SDK / Close activity
+                        TradeSdk.closeSdk()
+//                        activity?.finish() // Exit SDK / Close activity
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF3BB143))
                 ) {
