@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.19: Fixed Nav issues">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tradeappsdk/tradeappsdk.tradeappsdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/tradeappsdk/tradeappsdk.tradeappsdk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" afterDir="false" />
-    </list>
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.20: Fixed Nav issues more fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -301,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747036936239</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.0.20: Fixed Nav issues more fixes">
+      <option name="closed" value="true" />
+      <created>1747037484719</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747037484719</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +320,7 @@
     <MESSAGE value="1.0.17: logs added" />
     <MESSAGE value="1.0.18: Created the flow" />
     <MESSAGE value="1.0.19: Fixed Nav issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.19: Fixed Nav issues" />
+    <MESSAGE value="1.0.20: Fixed Nav issues more fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.20: Fixed Nav issues more fixes" />
   </component>
 </project>
