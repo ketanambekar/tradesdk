@@ -68,7 +68,7 @@ fun StockDetailScreen(isin: String?, onBack: () -> Unit = {}) {
                         containerColor = Color(0xFF006400)
                     ),
                     onClick = {
-                        navController.navigate("order_screen")
+                        navController?.navigate("order_screen")
                     }
                 ) {
                     Text("Buy Stock")
