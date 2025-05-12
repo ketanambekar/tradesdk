@@ -9,9 +9,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.15: Added back functionality to sdk">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1c550208-4158-454b-95bf-0742aba00c82" name="Changes" comment="1.0.17: logs added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/TradeSdk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tradeappsdk/src/main/java/com/finoux/tradeappsdk/screens/StockDetails.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +89,9 @@
     "accountId": "0496704d-e3ac-4179-bf06-76e9a995ac46"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="_Designer_Tab" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -103,10 +109,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ketan.amberkar/Desktop/projects/sdk/tradesdk",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.do.not.copy.http.proxy.settings.to.gradle": "false",
     "show.migrate.to.gradle.popup": "false"
@@ -117,6 +125,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.finoux.tradeappsdk.data" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="tradesdkapp.app.main" />
@@ -266,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747028913474</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.0.17: logs added">
+      <option name="closed" value="true" />
+      <created>1747031027315</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747031027315</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +299,7 @@
     <MESSAGE value="Lets go" />
     <MESSAGE value="1.0.14: Added host() method" />
     <MESSAGE value="1.0.15: Added back functionality to sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.15: Added back functionality to sdk" />
+    <MESSAGE value="1.0.17: logs added" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.17: logs added" />
   </component>
 </project>

@@ -4,7 +4,6 @@ import android.util.Log
 import androidx.compose.runtime.*
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.*
-
 object TradeSdk {
 
     private var _navController: NavHostController? = null
@@ -41,7 +40,7 @@ object TradeSdk {
                     val isin = _startIsin.value
                     if (isin != null) {
                         Log.d("TradeSdk", "Displaying StockDetailScreen for ISIN: $isin") // Log when stock details screen is being displayed
-                        StockDetailScreen(isin = isin, onBack = {
+                        StockDetailScreen(isin = "INE001A01036", onBack = {
                             Log.d("TradeSdk", "Back button pressed. Closing stock details.") // Log when back button is pressed
                             close()
                         })

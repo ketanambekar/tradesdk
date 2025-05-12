@@ -1,0 +1,14 @@
+[
+  {
+    "isin": "INE001A01036",
+    "name": "HDFC Bank Ltd.",
+    "exchange": "NSE",
+    "lastTradePrice": "₹10,00,000.21"
+  },
+  {
+    "isin": "INE002A01018",
+    "name": "Reliance Industries",
+    "exchange": "BSE",
+    "lastTradePrice": "₹2,750.00"
+  }
+]
